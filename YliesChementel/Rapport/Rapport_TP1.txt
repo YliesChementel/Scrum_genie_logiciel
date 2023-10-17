@@ -1,0 +1,9 @@
+J'ai remarqué que la conversion PDF en texte avec "pdf2txt" présentait moins d'erreur de conversion et avec une meilleure présentation sans option supplémentaire, et qu'il est bien sûr possible utiliser des options comme "layout" pour garder le même format d'affichage du texte sur le txt comme sur le PDF. Malheureusement "pdf2txt" n'est pas très intuitif à utiliser sans connaissance préalable à mon avis.
+
+
+Quant à "pdftotext", et bien il est plus intuitif à utiliser, avec des options ne se résumant souvent qu'à une seul lettre donc facile à retenir, mais aussi plus explicite sur la façon dont il peut extraire le texte, aillant des options permettant une extraction du texte plus précise dans la conversion, malheureusement de nombreuses erreur de conversion sont présentes dans les textes convertis.
+
+
+En conclusion, je pense que si l'on veut extraire du texte de façon précise et concise, nous devrions utiliser "pdftotext", mais si l'on veut faire des conversions de grande envergure et avec peu d'erreurs de conversion, nous devrions utiliser "pdf2txt".
+
+En vue de l'objectif à accomplir, je pense qu'il est nécessaire de ce penché vers la première option, plus intuitif et plus précise malgré les quelques erreurs possible de conversion.
