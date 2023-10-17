@@ -1,0 +1,2 @@
+J'ai remarqué que pdf2txt convertit les fichiers PDF de manière plus efficace que pdftotext. En effet, les tableaux sont mieux rendus, la mise en page est préservée, et les titres ainsi que les formules mathématiques sont mieux restitués par pdf2txt par rapport à pdftotext.
+De plus, l'utilisation de pdf2txt est plus intuitive que celle de pdftotext, avec des options plus clairement définies.
