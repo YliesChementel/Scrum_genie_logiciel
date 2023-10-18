@@ -1,1 +1,0 @@
-# Scrum_genie_logiciel
