@@ -1,1 +1,27 @@
 Rapport Sprint 2 : Parseur d’articles scientifiques en format texte
+
+Dans le cadre de ce TP, après avoir choisi pdftotext comme convertisseur le plus adapté, notre équipe fictive a été missionnée pour maintenant analyser les articles plain texte par un parseur développé dans un langage adéquat qui analysera les sorties textuelles du convertisseur et produira en sortie un fichier .txt par fichier ayant une certaine structure
+
+Planification du Sprint : (Durée du sprint : 3h00)
+
+1. Réunion d'initialisation (10 minutes):
+	- On s'est mis d'accord sur le travail à faire, mettant au clair les zones troubles pour certains.
+	- On a choisi un langage pour réaliser les objectifs : on a choisi python pour sa rapidité et la familiarité de l'équipe avec ce langage.
+	- On s'est réparti les tâches en faisant des groupes.
+	
+2. Phase de production (2h25)
+	- Chaque groupe construit sa partie du parseur.
+	- L'objectif final est de réunir toutes les parties pour avoir un parseur final.
+	
+3. Mêlée
+	- Plusieurs problèmes ont été rencontrés et gérés :
+		- Le parsage du paragraphe Abstract posait problème.
+			- Si le texte dans le PDF est en colonne alors après conversion le texte sera en ligne posant problème pour le parseur.
+			- Si le mot Abstract manque dans le PDF alors le parsage est compliqué.
+			- Chaque texte aillant une structure différente l'un de l'autre cela devient difficile généraliser le code.
+		- Des confusions sur le parsage des titres d'origine des fichiers.
+		
+4. Réunion de revue du sprint (15 minutes) :
+
+
+5. Rétrospective (5 minutes) :
