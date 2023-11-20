@@ -65,16 +65,20 @@ Mêlées
     Réunions quotidiennes environ toutes les 20 minutes pour discuter de l'avancement, des blocages et des ajustements nécessaires.
 
 	Réunion 1 : Dans cette première réunion, nous avons discuté de nos avancées, l'écriture du Rapport de Projet Scrum était presque terminée, 
-	la conception de la structure XML était terminée également, Boudount, Mejai, Ouahsouni étant engagé sur le codage de la fonctionnalité XML. 
+	le développement de la fonctionnalité de conversion des articles PDF en fichier XML était terminée également, Boudount, Mejai, Ouahsouni étant engagé sur l'ajout de la fonctionnalité pour extraire le titre, les auteurs, l'abstract, et les références bibliographiques.. 
 	On s'est projeté sur nos prochaines actions avant de rependre notre travail.
 
-	Réunion 2 : Dans cette deuxième réunion, nous avons constaté des problèmes sur le codage de la fonctionnalité XML, 
+	Réunion 2 : Dans cette deuxième réunion, nous avons constaté des problèmes sur l'ajout de la fonctionnalité pour extraire le titre, les auteurs, l'abstract, et les références bibliographiques, 
 	un blocage s'est formé, nécessitant plus de temps que prévu pour finir cette tâche. 
 	Pendant ce temps la documentation READ.ME a été attaqué par Boudount avec le code écrit pendant le Sprint 2, 
-	et ne pouvant pas attaqué les tests aillant finis l'écriture du Rapport de projet Scrum pour le moment Chementel et Jahid ont décidé d'aider à finir le codage de la fonctionnalité XML.
+	et ne pouvant pas attaqué les tests aillant finis l'écriture du Rapport de projet Scrum pour le moment Chementel et Jahid ont décidé d'aider à finir l'ajout de la fonctionnalité pour extraire le titre, les auteurs, l'abstract, et les références bibliographiques.
 
-	Réunion 3 : Dans cette troisième réunion, après avoir fini le codage de la fonctionnalité XML et l'intégration de l'argument de ligne de commande pour le choix du format de sortie, 
-	il ne reste plus qu'a faire les tests unitaires et d'intégration dont Chementel et Jahid s'occuperont de faire, et finir la documentation dont Boudount s'occupera de faire avec l'assistance de Mejai et Ouahsouni.
+	Réunion 3 : Dans cette troisième réunion, après avoir fini l'ajout de la fonctionnalité pour extraire le titre etc..., et avoir fini d'implémenter la sortie au format XML avec la structure spécifiée (preamble, titre, auteur, abstract, biblio), 
+	
+
+	Réunion 4 : Dans cette quatrième réunion, il ne reste plus qu'a faire les tests unitaires et d'intégration dont Chementel et Jahid s'occuperont de faire, et finir la documentation dont Boudount s'occupera de faire avec l'assistance de Mejai et Ouahsouni.
+
+	Réunion 5 :
 
 Revue
 
