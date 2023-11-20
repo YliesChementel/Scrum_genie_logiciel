@@ -74,7 +74,8 @@ Mêlées
 	et ne pouvant pas attaqué les tests aillant finis l'écriture du Rapport de projet Scrum pour le moment Chementel et Jahid ont décidé d'aider à finir l'ajout de la fonctionnalité pour extraire le titre, les auteurs, l'abstract, et les références bibliographiques.
 
 	Réunion 3 : Dans cette troisième réunion, après avoir fini l'ajout de la fonctionnalité pour extraire le titre etc..., et avoir fini d'implémenter la sortie au format XML avec la structure spécifiée (preamble, titre, auteur, abstract, biblio), 
-	
+	Il faut maintenant assurer l'encodage en UTF-8 des fichiers XML et maintenir la fonctionnalité de sortie en format texte, il a été décidé que le premier serait fait par Chementel et Jahid et le second serait fait par Mejai et Ouahsouni.
+	Et l'intégration de l'argument de ligne de commande pour le choix du format de sortie sera avancer par Boudount en attendant.
 
 	Réunion 4 : Dans cette quatrième réunion, il ne reste plus qu'a faire les tests unitaires et d'intégration dont Chementel et Jahid s'occuperont de faire, et finir la documentation dont Boudount s'occupera de faire avec l'assistance de Mejai et Ouahsouni.
 
