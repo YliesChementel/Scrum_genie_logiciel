@@ -1,0 +1,56 @@
+Rapport de Projet Scrum: Parseur d'Articles Scientifiques
+Groupe: Mejai, Ouahsouni, Chementel, Jahid, Boudount
+
+Planification :
+
+Product Backlog
+
+    Tâche 1: Développer la fonctionnalité de conversion des articles PDF en texte.
+    Tâche 2: Ajouter la fonctionnalité pour extraire le titre, les auteurs, l'abstract, et les références bibliographiques.
+    Tâche 3: Implémenter la sortie au format XML avec la structure spécifiée.
+    Tâche 4: Maintenir la fonctionnalité de sortie en format texte.
+    Tâche 5: Intégration de l'argument de ligne de commande pour le choix du format de sortie.
+    Tâche 6: Tests unitaires et d'intégration.
+    Tâche 7: Documentation et mise à jour du fichier README.md.
+    Tâche 8: Déploiement du système sur GitHub avec gestion des branches.
+
+Sprint Backlog
+
+    Sprint 3:
+        Tâches sélectionnées : 3, 4, 5.
+        Sous-tâches :
+            3.1: Conception de la structure XML.
+            3.2: Codage de la fonctionnalité XML.
+            4.1: Vérification de la fonctionnalité de sortie texte existante.
+            5.1: Implémentation de l'argument de ligne de commande.
+
+Sélection des Éléments
+
+    Tâches du Sprint 3 : Implémentation de la sortie XML, vérification de la sortie texte, et implémentation des arguments de ligne de commande.
+
+Répartition des Tâches
+
+    Code : Mejai, Ouahsouni (Tâches 3, 5)
+    Test : Chementel, Jahid (Tâche 4)
+    Documentation : Boudount (Tâche 7)
+
+Définition of Done
+
+    Tâche 3 : Un fichier XML est généré avec la structure spécifiée sans erreurs.
+    Tâche 4 : La sortie en format texte fonctionne comme prévu avec le nouveau code.
+    Tâche 5 : Les arguments de ligne de commande fonctionnent correctement pour sélectionner le format de sortie.
+
+Mêlées
+
+    Réunions quotidiennes de 20 minutes pour discuter de l'avancement, des blocages et des ajustements nécessaires.
+
+Revue
+
+    Analyse des livrables par rapport aux attentes.
+    Mise à jour du Product Backlog en fonction des résultats et des retours.
+
+Rétrospective
+
+    Ce qui a bien fonctionné : Collaboration efficace, bonne communication.
+    Ce qui a mal fonctionné : Difficultés initiales avec l'implémentation XML.
+    Améliorations : Augmenter la fréquence des tests pour détecter les problèmes plus tôt.
