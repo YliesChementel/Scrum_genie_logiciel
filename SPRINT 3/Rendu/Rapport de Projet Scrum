@@ -84,13 +84,27 @@ Mêlées
 
 	Réunion 5 : Dans cette dernière réunion, nous avons mis en revue ce qui a été fait et ce qui n'a pas été fait. Globalement tout les objectifs ont été accomplis ne restant plus qu'a finir la documentation et le deployement sur GitHub.
 
+	
 Revue
 
     Analyse des livrables par rapport aux attentes.
     Mise à jour du Product Backlog en fonction des résultats et des retours.
+    Tous les objectifs du sprint ont été remplis.
+    Ils restent malgré tout quelques problèmes antérieurs à ce sprint qui avait été oublié comme le fait que certains PDF sont mal retranscris en textes ou XML dût à comment ils sont construits.
 
 Rétrospective
 
-    Ce qui a bien fonctionné : Collaboration efficace, bonne communication.
-    Ce qui a mal fonctionné : Difficultés initiales avec l'implémentation XML.
-    Améliorations : Augmenter la fréquence des tests pour détecter les problèmes plus tôt.
+     Ce qui a bien fonctionné :
+	L'équipe a travaillé de manière collaborative et efficace.
+	La communication a été fluide et ouverte.
+	Les tests ont permis de détecter et de corriger les problèmes plus tôt.
+
+     Ce qui a mal fonctionné :
+
+	Les difficultés initiales avec l'implémentation XML ont retardé le sprint.
+	Certains se sont retrouvés sans travail lorsqu'une tâche n'était pas terminée.
+
+
+     Améliorations :
+	Travailler sur une meilleure organisation, ou en tout cas une organisation plus fluide/agile.
+	Augmenter la fréquence des tests pour détecter les problèmes plus tôt.
