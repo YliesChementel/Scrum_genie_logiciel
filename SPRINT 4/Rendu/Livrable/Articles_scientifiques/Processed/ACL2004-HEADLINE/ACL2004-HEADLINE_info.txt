@@ -1,0 +1,100 @@
+Fichier : ACL2004-HEADLINE.pdf
+Titre : Hybrid Headlines: Combining Topics and Sentence Compression
+Auteurs : David Zajic, Bonnie Dorr, Stacy President
+Résumé : This paper presents Topiary, a headlinegeneration system that creates very short, informative summaries for news stories by combining sentence compression and unsupervised topic discovery. We will show that the combination of linguistically motivated sentence compression with statistically selected topic terms performs better than either alone, according to some automatic summary evaluation measures. In addition we describe experimental results establishing an appropriate extrinsic task on which to measure the effect of summarization on human performance. We demonstrate the usefulness of headlines in comparison to full texts in the context of this extrinsic task.
+Introduction : In this paper we present Topiary, a headlinegeneration system that creates very short, informative summaries for news stories by combining sentence compression and unsupervised topic discovery. Hedge Trimmer performs sentence compression by removing constituents from a parse tree of the lead sentence according to a set of linguistically-motivated heuristics until a length threshold is reached. Unsupervised Topic Discovery is a statistical method for deriving a set of topic models from a document corpus, assigning meaningful names to the topic models, and associating  sets of topics with specific documents. The topics and sentence compressions are combined in a manner that preserves the advantages of each approach: the fluency and event-oriented information from the lead sentence with the broader coverage of the topic models. The next section presents previous work in the area of automatic summarization. Following this we describe Hedge Trimmer and Unsupervised Topic Discovery in more detail, and describe the algorithm for combining sentence compression with topics. Next we show that Topiary scores higher than either Hedge Trimmer or Unsupervised Topic Discovery alone according to certain automatic evaluation tools for summarization. Finally we propose event tracking as an extrinsic task using automatic summarization for measuring how human performance is affected by automatic summarization, and for correlating human peformance with automatic evaluation tools. We describe an experiment that supports event tracking as an appropriate task for this purpose, and show results that suggest that a well-written human headline is nearly as useful for event tracking as the full text.  2
+Corps : Inconnu
+Conclusion : We have shown the effectiveness of combining sentence compression and topic lists to construct informative summaries. We have compared three   approaches to automatic headline generation (Topiary, Hedge Trimmer and Unsupervised Topic Discovery) using two automatic summarization evaluation tools (BLEU and ROUGE). We have stressed the importance of correlating automatic evaluations with human performance of an extrinsic task, and have proposed event tracking as an appropriate task for this purpose. We plan to perform a study in which Topiary, Hedge Trimmer, Unsupervised Topic Discovery and other summarization methods will be evaluated in the context of event tracking. We also plan to extend the tools described in this paper to the domains of transcribed broadcast news and crosslanguage headline generation.
+Discussion : The University of Maryland authors are supported, in part, by BBNT Contract 0201247157, DARPA/ITO Contract N66001-97-C-8540,
+and NSF CISE Research Infrastructure Award
+EIA0130422.
+
+References
+Sabine Bergler, René Witte, Michelle Khalife,
+Zhuoyan Li, and Frank Rudzicz. 2003. Using
+knowledge-poor coreference resolution for text summarization. In Proceedings of the 2003 Document
+Understanding Conference, Draft Papers, pages 85–
+92, Edmonton, Candada.
+Bonnie Dorr, David Zajic, and Richard Schwartz.
+2003a. Cross-language headline generation for
+hindi. ACM Transactions on Asian Language Information Processing (TALIP), 2:2.
+Bonnie Dorr, David Zajic, and Richard Schwartz.
+2003b. Hedge trimmer: A parse-and-trim approach
+to headline generation. In Proceedings of the HLTNAACL 2003 Text Summarization Workshop, Edmonton, Alberta, Canada, pages 1–8.
+T. Euler. 2002. Tailoring text using topic words: Selection and compression. In Proceedings of 13th
+International Workshop on Database and Expert
+Systems Applications (DEXA 2002), 2-6 September 2002, Aix-en-Provence, France, pages 215–222.
+IEEE Computer Society.
+Kevin Knight and Daniel Marcu. 2000. Statisticsbased summarization – step one: Sentence compression. In The 17th National Conference of
+
+the American Association for Artificial Intelligence
+AAAI2000, Austin, Texas.
+David Lewis. 1992. An evaluation of phrasal and clustered representations on a text categorization task.
+In Proceedings of the 15th annual international
+ACM SIGIR conference on Research and development in information retrieval, pages 37–50, Copenhagen, Denmark.
+Chin-Yew Lin and Eduard Hovy. 2003. Automatic Evaluation of Summaries Using N-gram CoOccurrences Statistics. In Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics, Edmonton,
+Alberta.
+Ingrid Mårdh. 1980. Headlinese: On the Grammar of
+English Front Page Headlines. Malmo.
+S. Miller, M. Crystal, H. Fox, L. Ramshaw,
+R. Schwartz, R. Stone, and R. Weischedel. 1998.
+Algorithms that Learn to Extract Information; BBN:
+Description of the SIFT System as Used for MUC-7.
+In Proceedings of the MUC-7.
+K. Papineni, S. Roukos, T. Ward, and W. Zhu. 2002.
+Bleu: a Method for Automatic Evaluation of Machine Translation. In Proceedings of Association of
+Computational Linguistics, Philadelphia, PA.
+R. Schwartz, T. Imai, F. Jubala, L. Nguyen, and
+J. Makhoul. 1997. A maximum likelihood model
+for topic classification of broadcast news.
+In
+Eurospeech-97, Rhodes, Greece.
+David Zajic, Bonnie Dorr, Richard Schwartz, and Stacy
+President. 2004. Headline evaluation experiment
+results, umiacs-tr-2004-18. Technical report, University of Maryland Institute for Advanced Computing Studies, College Park, Maryland.
+Liang Zhou and Eduard Hovy. 2003. Headline summarization at isi. In Proceedings of the 2003 Document Understanding Conference, Draft Papers,
+pages 174–178, Edmonton, Candada.
+Bibliographie : Sabine Bergler, René Witte, Michelle Khalife,
+Zhuoyan Li, and Frank Rudzicz. 2003. Using
+knowledge-poor coreference resolution for text summarization. In Proceedings of the 2003 Document
+Understanding Conference, Draft Papers, pages 85–
+92, Edmonton, Candada.
+Bonnie Dorr, David Zajic, and Richard Schwartz.
+2003a. Cross-language headline generation for
+hindi. ACM Transactions on Asian Language Information Processing (TALIP), 2:2.
+Bonnie Dorr, David Zajic, and Richard Schwartz.
+2003b. Hedge trimmer: A parse-and-trim approach
+to headline generation. In Proceedings of the HLTNAACL 2003 Text Summarization Workshop, Edmonton, Alberta, Canada, pages 1–8.
+T. Euler. 2002. Tailoring text using topic words: Selection and compression. In Proceedings of 13th
+International Workshop on Database and Expert
+Systems Applications (DEXA 2002), 2-6 September 2002, Aix-en-Provence, France, pages 215–222.
+IEEE Computer Society.
+Kevin Knight and Daniel Marcu. 2000. Statisticsbased summarization – step one: Sentence compression. In The 17th National Conference of
+
+the American Association for Artificial Intelligence
+AAAI2000, Austin, Texas.
+David Lewis. 1992. An evaluation of phrasal and clustered representations on a text categorization task.
+In Proceedings of the 15th annual international
+ACM SIGIR conference on Research and development in information retrieval, pages 37–50, Copenhagen, Denmark.
+Chin-Yew Lin and Eduard Hovy. 2003. Automatic Evaluation of Summaries Using N-gram CoOccurrences Statistics. In Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics, Edmonton,
+Alberta.
+Ingrid Mårdh. 1980. Headlinese: On the Grammar of
+English Front Page Headlines. Malmo.
+S. Miller, M. Crystal, H. Fox, L. Ramshaw,
+R. Schwartz, R. Stone, and R. Weischedel. 1998.
+Algorithms that Learn to Extract Information; BBN:
+Description of the SIFT System as Used for MUC-7.
+In Proceedings of the MUC-7.
+K. Papineni, S. Roukos, T. Ward, and W. Zhu. 2002.
+Bleu: a Method for Automatic Evaluation of Machine Translation. In Proceedings of Association of
+Computational Linguistics, Philadelphia, PA.
+R. Schwartz, T. Imai, F. Jubala, L. Nguyen, and
+J. Makhoul. 1997. A maximum likelihood model
+for topic classification of broadcast news.
+In
+Eurospeech-97, Rhodes, Greece.
+David Zajic, Bonnie Dorr, Richard Schwartz, and Stacy
+President. 2004. Headline evaluation experiment
+results, umiacs-tr-2004-18. Technical report, University of Maryland Institute for Advanced Computing Studies, College Park, Maryland.
+Liang Zhou and Eduard Hovy. 2003. Headline summarization at isi. In Proceedings of the 2003 Document Understanding Conference, Draft Papers,
+pages 174–178, Edmonton, Candada.
