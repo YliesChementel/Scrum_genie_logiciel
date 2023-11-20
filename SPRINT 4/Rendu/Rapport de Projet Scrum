@@ -11,16 +11,33 @@ Product Backlog
     Tâche 4: Mis en place d'un menu au début de l’exécution du système afin de choisir les PDFs spécifiques à parser plutôt que de parser tout le répertoire.
     Tâche 5: Tests unitaires et d'intégration.
     Tâche 6: Mettre toutes ces nouvelles fonctionnalitées dans un seul programme
-    Tâche 7: Documentation et mise à jour du fichier README.md.
-    Tâche 8: Déploiement du système sur GitHub avec gestion des branches.
+    Tâche 7: Tests unitaires et d'intégration.
+    Tâche 8: Documentation et mise à jour du fichier README.md.
+    Tâche 9: Déploiement du système sur GitHub avec gestion des branches.
 
 Sprint Backlog
 
     Sprint 4:
-        Tâches sélectionnées : 1, 2, 3, 4, 5, 6, 7, 8.
+        Tâches sélectionnées : 1, 2, 3, 4, 5, 6, 7, 8, 9.
         Sous-tâches :
-            1.1: 
-           
+            	1.1: Ecriture du Product Backlog (5min)
+            	1.2: Ecriture du Sprint Backlog (5min)
+            	1.3: Ecriture de la repartition des tâches (5min)
+            	2.1: Ajout de la section Introduction et de sa ou ses méthodes d'ajout (10min)
+		2.2: Ajout de la section Conclusion et de sa ou ses méthodes d'ajout (10min)
+		2.3: Ajout de la section Corps et de sa ou ses méthodes d'ajout (10min)
+		3.1: Ajout de la section Biblio et de sa ou ses méthodes d'ajout (10min)
+		3.2: Ajout de la section Discussion et de sa ou ses méthodes d'ajout (10min)
+		4.1: Ajout d'une méthode pour construire le menu (10min)
+		5.1: Vérification du fonctionnement correct du programme (10min)
+            	5.2: Correction d'erreur potentiel (10 min)
+		6.1: Fusionner les codes (15min)
+		6.2: S'assurer de la compatibilité de l'ensemble (10min)
+		7.1: Vérification du fonctionnement correct du programme (10min)
+            	7.2: Correction d'erreur potentiel (10 min)
+            	7.3: Nettoyage du Code pour le rendre plus lisible (5min)
+		
+		
 
 
 Répartition des Tâches
@@ -30,9 +47,10 @@ Répartition des Tâches
     Tâche 3 : Jahid
     Tâche 4 : Ouahsouni
     Tâche 5 : Boudount,Chementel
-    Tâche 6 : Ouahsouni
-    Tâche 7 : Boudount,Chementel
+    Tâche 6 : Jahid, Mejai ,Ouahsouni
+    Tâche 7 : Jahid, Mejai ,Ouahsouni
     Tâche 8 : Boudount,Chementel
+    Tâche 9 : Boudount,Chementel
     
 
 
@@ -51,7 +69,7 @@ Mêlées
     Réunions quotidiennes environ toutes les 20 minutes pour discuter de l'avancement, des blocages et des ajustements nécessaires.
 
 	Réunion 1 : Dans cette première réunion, nous en avons déduit que beaucoup ont été faits, mais rien d'encore terminé, chaque tâche prenant du temps, le menu marche, mais rencontre quelques problèmes, l'intégration des nombreuses sections s'est fait sans encombre
-	mais leurs remplissages via les méthodes, nouvellement, créent ne sont pas fonctionnel ou optimal pour certaines dût aux différences entre les différents PDF, et le rapport n'a pas beaucoup avancé du au pause prises en conséquence
+	mais leurs remplissages via les méthodes nouvellement crées, ne sont pas fonctionnel ou optimal pour certaines dût aux différences entre les différents PDF, et le rapport n'a pas beaucoup avancé du au pause prises en conséquence
 	de nombreuses heures de travail enchaîné. Nous avons donc décidé de continuer dans notre lancé et de prendre de plus amples décisions lors de la prochaine mêlée.
 
 	Réunion 2 : Dans cette deuxième réunion,
@@ -65,6 +83,7 @@ Mêlées
 Revue
 
 récupération des introductions marche à 90% des cas
+Biblio marche parfaitement
 
 Rétrospective
 
