@@ -63,7 +63,7 @@ Définition of Done
 	Tâche 5 : L'ensemble des programmes marche sans encombre, à quelques exceptions près.
 	Tâche 6 : Tout les programmes ont été fusionnés en un seul programme avec succès.
 	Tâche 7 : Le programme marche sans encombre, à quelques exceptions près.
-	Tâche 8 :
+	Tâche 8 : La documentation et la mise à jour du fichier README.md ont été effectué.
 	Tâche 9 : L'ensemble des documents ont été déployés et sont visibles.
 
 Mêlées
@@ -74,19 +74,16 @@ Mêlées
 	mais leurs remplissages via les méthodes nouvellement crées, ne sont pas fonctionnel ou optimal pour certaines dût aux différences entre les différents PDF, et le rapport n'a pas beaucoup avancé du au pause prises en conséquence
 	de nombreuses heures de travail enchaîné. Nous avons donc décidé de continuer dans notre lancé et de prendre de plus amples décisions lors de la prochaine mêlée.
 
-	Réunion 2 : Dans cette deuxième réunion,
+	Réunion 2 : Dans cette deuxième réunion, le menu à été fini et les sections Biblio et Discussions ainsi que leurs méthodes de remplissage ont été implémentées, Ouahsouni n'aillant plus rien à faire il s'occupera de faire des tests 
+	et corriger les bugs, les méthodes pour remplir Introduction, Conclusion et Corps posent problème du fait de nombreuses différences entre les .
 
-	Réunion 3 : Dans cette troisième réunion,
-
-	Réunion 4 : Dans cette quatrième réunion,
-
-	Réunion 5 : Dans cette dernière réunion,
+	
 	
 Revue
 	Globalement, tous les objectifs du sprint ont été remplis:
 		Le Menu marche parfaitement.
 		La récupération des introductions marchait sur 90 % des documents de recherches fourni, et après plus amples tests elle marche sur 100 % des cas à présent.
-		La récupération des conclusions marche parfaitement.
+		La récupération des conclusions et des corps sur 80 % des documents de recherches.
 		La récupération des Biblio et des Discussion marche parfaitement avec comme exceptions PDF Torres et MIKHEEV qui ont l'air de poser problème sur toutes les sections.
 		La mise en place de tous les programmes dans un seul programme s'est déroulée sans encombre et le programme marche parfaitement.
 		Enfin, l'ensemble des documents ont été déployés et sont visibles.
@@ -96,15 +93,15 @@ Revue
 
 Rétrospective
 
-     Ce qui a bien fonctionné :
-	Lorsque que quelqu'un s'est retrouvé sans travail et à attendre lorsqu'une tâche n'était pas terminée, il s'occupait automatiquement des tests disponibles nous permettant d'être flexibles sur nos objectifs.
-	La fréquence de test aillant augmenté cela nous a permis de détecter et de corriger les problèmes plus tôt et plus efficacement.
-	L'équipe a travaillé de manière collaborative et efficace.
+	Ce qui a bien fonctionné :
+		Lorsque que quelqu'un s'est retrouvé sans travail et à attendre lorsqu'une tâche n'était pas terminée, il s'occupait automatiquement des tests disponibles nous permettant d'être flexibles sur nos objectifs.
+		La fréquence de test aillant augmenté cela nous a permis de détecter et de corriger les problèmes plus tôt et plus efficacement.
+		L'équipe a travaillé de manière collaborative et efficace.
 
-Ce qui a mal fonctionné :
-	Certains étaient affectés à des tâches qui leur prenaient plus de temps que les autres, d à un manque de maîtrise du langage.
-	Au vu des horaires, nous étions compromis dans notre travail (baisse de productivité, perte de motivation, etc.).
+	Ce qui a mal fonctionné :
+		Certains étaient affectés à des tâches qui leur prenaient plus de temps que les autres, d à un manque de maîtrise du langage.
+		Au vu des horaires, nous étions compromis dans notre travail (baisse de productivité, perte de motivation, etc.).
 
-Améliorations :
-	Communiqué davantage sur les capacités de chacun et de leur besoin.
-	Lors d'horaires difficiles, se séparer davantage les tâches pour alléger la charge de travail.
+	Améliorations :
+		Communiqué davantage sur les capacités de chacun et de leur besoin.
+		Lors d'horaires difficiles, se séparer davantage les tâches pour alléger la charge de travail.
