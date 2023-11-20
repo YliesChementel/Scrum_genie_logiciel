@@ -5,14 +5,18 @@ Planification :
 
 Product Backlog
 
-	Sprint 3 :
-	    Tâche 1: Ecriture du Rapport Scrum avec ProductBacklog,Sprint Backlog etc...
-	    Tâche 2: Implémenter la sortie au format XML avec la structure spécifiée.
-	    Tâche 3: Maintenir la fonctionnalité de sortie en format texte.
-	    Tâche 4: Intégration de l'argument de ligne de commande pour le choix du format de sortie.
-	    Tâche 5: Tests unitaires et d'intégration.
-	    Tâche 6: Documentation et mise à jour du fichier README.md.
-	    Tâche 7: Déploiement du système sur GitHub avec gestion des branches.
+    Tâche 1: Ecriture du rapport SCRUM 
+    Tâche 2: Développer la fonctionnalité de conversion des articles PDF en fichier XML. 
+    Tâche 3: Ajouter la fonctionnalité pour extraire le titre, les auteurs, l'abstract, et les références bibliographiques. 
+    Tâche 4: Implémenter la sortie au format XML avec la structure spécifiée (preamble, titre, auteur, abstract, biblio). 
+    Tâche 5: Assurer l'encodage en UTF-8 des fichiers XML. 
+    Tâche 6: Maintenir la fonctionnalité de sortie en format texte. 
+    Tâche 7: Intégration de l'argument de ligne de commande pour le choix du format de sortie. 
+    Tâche 8: Tests unitaires et d'intégration.
+    Tâche 9: Ajouter des sections supplémentaires dans le fichier XML (introduction, corps, conclusion, discussion)
+    Tâche 10: Créer un menu au début de l'exécution du système pour sélectionner les fichiers PDF que l'on souhaite parser 
+    Tâche 11: Documentation et mise à jour du fichier README.md.
+    Tâche 12: Déploiement du système sur GitHub avec gestion des branches.
 	   
 
 Sprint Backlog
@@ -35,24 +39,26 @@ Sprint Backlog
 
 Répartition des Tâches
 
-    Tâche 1 : Boudount,Chementel
+    Tâche 1 : Chementel,Jahid
     Tâche 2 : Jahid, Mejai, Ouahsouni
     Tâche 3 : Mejai, Ouahsouni 
     Tâche 4 : Mejai, Ouahsouni
     Tâche 5 : Chementel, Jahid
     Tâche 6 : Boudount
     Tâche 7 : Boudount
+    Tâche 8 : Boudount  
 
 
 Définition of Done
 
     Tâche 1 : Le rapport de projet Scrum comporte maintenant du Product Backlog, du Sprint Backlog et de la de la repartition des tâches.
-    Tâche 2 : Un fichier XML est généré avec la structure spécifiée sans erreurs.
-    Tâche 3 : La sortie en format texte fonctionne comme prévu avec le nouveau code.
-    Tâche 4 : Les arguments de ligne de commande fonctionnent correctement pour sélectionner le format de sortie.
-    Tâche 5 : 
-    Tâche 6 : 
-    Tâche 7 : L'ensemble des documents sont déployer et visible 
+    Tâche 2 : La fonctionnalité convertit avec succès des fichiers PDF en fichiers XML
+    Tâche 3 : Toutes les informations requises sont correctement extraites de PDF et intégrées dans le XML.
+    Tâche 4 : Le fichier XML suit précisément la structure spécifiée
+    Tâche 5 : Les fichiers XML sont correctement encodés en UTF-8.
+    Tâche 6 : La sortie en format texte est correctement conservée.
+    Tâche 7 : Les arguments de ligne de commande fonctionnent correctement pour sélectionner le format de sortie. 
+    Tâche 8 : L'ensemble des documents sont déployer et visible 
 
 Mêlées
 
