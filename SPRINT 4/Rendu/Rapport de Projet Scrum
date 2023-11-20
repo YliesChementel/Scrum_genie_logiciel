@@ -29,7 +29,7 @@ Sprint Backlog
 		3.1: Ajout de la section Biblio et de sa ou ses méthodes d'ajout (10min)
 		3.2: Ajout de la section Discussion et de sa ou ses méthodes d'ajout (10min)
 		4.1: Ajout d'une méthode pour construire le menu (10min)
-		5.1: Vérification du fonctionnement correct du programme (10min)
+		5.1: Vérification du fonctionnement correct du programme (5min)
             	5.2: Correction d'erreur potentiel (10 min)
 		6.1: Fusionner les codes (15min)
 		6.2: S'assurer de la compatibilité de l'ensemble (10min)
@@ -56,14 +56,16 @@ Répartition des Tâches
 
 Définition of Done
 
-    Tâche 1 : 
-    Tâche 2 : 
-    Tâche 3 : 
-    Tâche 4 : 
-    Tâche 5 :
-    Tâche 6 :
-    Tâche 7 : 
+    Tâche 1 : Le rapport est écrit et tout y est renseigné.
+    Tâche 2 : Les sections Introduction, Conclusion et Corps ont été implémentées et sont remplis quand un PDF est parser.
+    Tâche 3 : Les sections Biblio et Discussions ont été implémentées et sont remplis quand un PDF est parser.
+    Tâche 4 : Le menu marche parfaitement, on peut choisir le pdf à parser en entrant son nom et cela parse seulement les fichiers qui ont été entré par l'utilisateur.
+    Tâche 5 : L'ensemble des programmes marche sans encombre, à quelques exeptions près.
+    Tâche 6 : Tout les programmes ont été fusionner en un seul programme avec succès.
+    Tâche 7 : Le programme marche sans encombre, à quelques exeptions près.
     Tâche 8 : 
+    Tâche 9 : L'ensemble des documents ont été déployer et sont visible.
+
 Mêlées
 
     Réunions quotidiennes environ toutes les 20 minutes pour discuter de l'avancement, des blocages et des ajustements nécessaires.
@@ -81,9 +83,16 @@ Mêlées
 	Réunion 5 : Dans cette dernière réunion,
 	
 Revue
+	Globalement, tous les objectifs du sprint ont été remplis.
+Le Menu marche parfaitement.
+La récupération des introductions marchait sur 90 % des documents de recherches fourni, et après plus amples tests elle marche sur 100 % des cas à présent.
+La récupération des conclusions marche parfaitement.
+La récupération des Biblio et des Discussion marche parfaitement avec comme exceptions PDF Torres et MIKHEEV qui ont l'air de poser problème sur toutes les sections.
+La mise en place de tous les programmes dans un seul programme s'est déroulée sans encombre et le programme marche parfaitement.
+Enfin, l'ensemble des documents ont été déployés et sont visibles.
 
-récupération des introductions marche à 90% des cas
-Biblio marche parfaitement
+Maintenant, nous rencontrons toujours des problèmes avec certains PDF (Torres et MIKHEEV) qui ont l'air de poser problème sur toutes les sections.
+Et nos méthodes pour récupérer les introductions, corps et conclusions sont loin d'être optimal et pourrait être largement amélioré.
 
 Rétrospective
 
