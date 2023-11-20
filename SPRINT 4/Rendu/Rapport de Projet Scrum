@@ -42,29 +42,29 @@ Sprint Backlog
 
 Répartition des Tâches
 
-    Tâche 1 : Boudount,Chementel
-    Tâche 2 : Mejai
-    Tâche 3 : Jahid
-    Tâche 4 : Ouahsouni
-    Tâche 5 : Boudount,Chementel
-    Tâche 6 : Jahid, Mejai ,Ouahsouni
-    Tâche 7 : Jahid, Mejai ,Ouahsouni
-    Tâche 8 : Boudount,Chementel
-    Tâche 9 : Boudount,Chementel
+    	Tâche 1 : Boudount,Chementel
+    	Tâche 2 : Mejai
+    	Tâche 3 : Jahid
+    	Tâche 4 : Ouahsouni
+    	Tâche 5 : Boudount,Chementel
+    	Tâche 6 : Jahid, Mejai ,Ouahsouni
+    	Tâche 7 : Jahid, Mejai ,Ouahsouni
+    	Tâche 8 : Boudount,Chementel
+    	Tâche 9 : Boudount,Chementel
     
 
 
 Définition of Done
 
-    Tâche 1 : Le rapport est écrit et tout y est renseigné.
-    Tâche 2 : Les sections Introduction, Conclusion et Corps ont été implémentées et sont remplis quand un PDF est parser.
-    Tâche 3 : Les sections Biblio et Discussions ont été implémentées et sont remplis quand un PDF est parser.
-    Tâche 4 : Le menu marche parfaitement, on peut choisir le pdf à parser en entrant son nom et cela parse seulement les fichiers qui ont été entré par l'utilisateur.
-    Tâche 5 : L'ensemble des programmes marche sans encombre, à quelques exeptions près.
-    Tâche 6 : Tout les programmes ont été fusionner en un seul programme avec succès.
-    Tâche 7 : Le programme marche sans encombre, à quelques exeptions près.
-    Tâche 8 : 
-    Tâche 9 : L'ensemble des documents ont été déployer et sont visible.
+   	Tâche 1 : Le rapport est écrit et tout y est renseigné.
+	Tâche 2 : Les sections Introduction, Conclusion et Corps ont été implémentées et sont remplis quand un PDF est parser.
+	Tâche 3 : Les sections Biblio et Discussions ont été implémentées et sont remplis quand un PDF est parser.
+	Tâche 4 : Le menu marche parfaitement, on peut choisir le PDF à parser en entrant son nom, et cela, parse seulement les fichiers qui ont été entrés par l'utilisateur.
+	Tâche 5 : L'ensemble des programmes marche sans encombre, à quelques exceptions près.
+	Tâche 6 : Tout les programmes ont été fusionnés en un seul programme avec succès.
+	Tâche 7 : Le programme marche sans encombre, à quelques exceptions près.
+	Tâche 8 :
+	Tâche 9 : L'ensemble des documents ont été déployés et sont visibles.
 
 Mêlées
 
@@ -83,16 +83,16 @@ Mêlées
 	Réunion 5 : Dans cette dernière réunion,
 	
 Revue
-	Globalement, tous les objectifs du sprint ont été remplis.
-Le Menu marche parfaitement.
-La récupération des introductions marchait sur 90 % des documents de recherches fourni, et après plus amples tests elle marche sur 100 % des cas à présent.
-La récupération des conclusions marche parfaitement.
-La récupération des Biblio et des Discussion marche parfaitement avec comme exceptions PDF Torres et MIKHEEV qui ont l'air de poser problème sur toutes les sections.
-La mise en place de tous les programmes dans un seul programme s'est déroulée sans encombre et le programme marche parfaitement.
-Enfin, l'ensemble des documents ont été déployés et sont visibles.
+	Globalement, tous les objectifs du sprint ont été remplis:
+		Le Menu marche parfaitement.
+		La récupération des introductions marchait sur 90 % des documents de recherches fourni, et après plus amples tests elle marche sur 100 % des cas à présent.
+		La récupération des conclusions marche parfaitement.
+		La récupération des Biblio et des Discussion marche parfaitement avec comme exceptions PDF Torres et MIKHEEV qui ont l'air de poser problème sur toutes les sections.
+		La mise en place de tous les programmes dans un seul programme s'est déroulée sans encombre et le programme marche parfaitement.
+		Enfin, l'ensemble des documents ont été déployés et sont visibles.
 
-Maintenant, nous rencontrons toujours des problèmes avec certains PDF (Torres et MIKHEEV) qui ont l'air de poser problème sur toutes les sections.
-Et nos méthodes pour récupérer les introductions, corps et conclusions sont loin d'être optimal et pourrait être largement amélioré.
+	Maintenant, nous rencontrons toujours des problèmes avec certains PDF (Torres et MIKHEEV) qui ont l'air de poser problème sur toutes les sections.
+	Et nos méthodes pour récupérer les introductions, corps et conclusions sont loin d'être optimal et pourrait être largement amélioré.
 
 Rétrospective
 
