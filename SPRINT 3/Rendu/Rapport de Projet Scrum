@@ -5,45 +5,59 @@ Planification :
 
 Product Backlog
 
-    Tâche 1: Développer la fonctionnalité de conversion des articles PDF en texte.
-    Tâche 2: Ajouter la fonctionnalité pour extraire le titre, les auteurs, l'abstract, et les références bibliographiques.
-    Tâche 3: Implémenter la sortie au format XML avec la structure spécifiée.
-    Tâche 4: Maintenir la fonctionnalité de sortie en format texte.
-    Tâche 5: Intégration de l'argument de ligne de commande pour le choix du format de sortie.
-    Tâche 6: Tests unitaires et d'intégration.
-    Tâche 7: Documentation et mise à jour du fichier README.md.
-    Tâche 8: Déploiement du système sur GitHub avec gestion des branches.
+	Sprint 3 :
+	    Tâche 1: Ecriture du Rapport Scrum avec ProductBacklog,Sprint Backlog etc...
+	    Tâche 2: Implémenter la sortie au format XML avec la structure spécifiée.
+	    Tâche 3: Maintenir la fonctionnalité de sortie en format texte.
+	    Tâche 4: Intégration de l'argument de ligne de commande pour le choix du format de sortie.
+	    Tâche 5: Tests unitaires et d'intégration.
+	    Tâche 6: Documentation et mise à jour du fichier README.md.
+	    Tâche 7: Déploiement du système sur GitHub avec gestion des branches.
+	   
 
 Sprint Backlog
 
     Sprint 3:
-        Tâches sélectionnées : 3, 4, 5.
+        Tâches sélectionnées : 1, 2, 3, 4, 5, 6.
         Sous-tâches :
-            3.1: Conception de la structure XML.
-            3.2: Codage de la fonctionnalité XML.
-            4.1: Vérification de la fonctionnalité de sortie texte existante.
-            5.1: Implémentation de l'argument de ligne de commande.
+            1.1: Ecriture du Product Backlog (5min)
+            1.2: Ecriture du Sprint Backlog (5min)
+            1.3: Ecriture de la repartition des tâches (5min)
+            2.1: Conception de la structure XML.(10 min)
+            2.2: Codage de la fonctionnalité XML.(10 min)
+            3.1: Vérification de la fonctionnalité de sortie texte existante.(5min)
+            4.1: Implémentation de l'argument de ligne de commande.(10min)
+            5.1: Vérification du fonctionnement correct du programme (10min)
+            5.2: Correction d'erreur potentiel (10 min)
+            5.3: Nettoyage du Code pour le rendre plus lisible (5min)
 
-Sélection des Éléments
 
-    Tâches du Sprint 3 : Implémentation de la sortie XML, vérification de la sortie texte, et implémentation des arguments de ligne de commande.
 
 Répartition des Tâches
 
-    Code : Mejai, Ouahsouni (Tâches 3, 5)
-    Test : Chementel, Jahid (Tâche 4)
-    Documentation : Boudount (Tâche 7)
+    Tâche 1 : Boudount,Chementel
+    Tâche 2 : Jahid, Mejai, Ouahsouni
+    Tâche 3 : Mejai, Ouahsouni 
+    Tâche 4 : Mejai, Ouahsouni
+    Tâche 5 : Chementel, Jahid
+    Tâche 6 : Boudount
+    Tâche 7 : Boudount
+
 
 Définition of Done
 
-    Tâche 3 : Un fichier XML est généré avec la structure spécifiée sans erreurs.
-    Tâche 4 : La sortie en format texte fonctionne comme prévu avec le nouveau code.
-    Tâche 5 : Les arguments de ligne de commande fonctionnent correctement pour sélectionner le format de sortie.
+    Tâche 1 : Le rapport de projet Scrum comporte maintenant du Product Backlog, du Sprint Backlog et de la de la repartition des tâches.
+    Tâche 2 : Un fichier XML est généré avec la structure spécifiée sans erreurs.
+    Tâche 3 : La sortie en format texte fonctionne comme prévu avec le nouveau code.
+    Tâche 4 : Les arguments de ligne de commande fonctionnent correctement pour sélectionner le format de sortie.
+    Tâche 5 : 
+    Tâche 6 : 
+    Tâche 7 : L'ensemble des documents sont déployer et visible 
 
 Mêlées
 
     Réunions quotidiennes de 20 minutes pour discuter de l'avancement, des blocages et des ajustements nécessaires.
-
+    	Réunion 1: 
 Revue
 
     Analyse des livrables par rapport aux attentes.
