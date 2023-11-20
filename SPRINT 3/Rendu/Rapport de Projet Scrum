@@ -31,7 +31,7 @@ Sprint Backlog
             2.2: Codage de la fonctionnalité XML.(10 min)
             3.1: Vérification de la fonctionnalité de sortie texte existante.(5min)
 	    4.1: Intégration de la structure XML (preamble, titre, auteur, abstract, biblio)(5min)
-	    5.1: mplémentation de l'encodage UTF-8.(5min)
+	    5.1: Implémentation de l'encodage UTF-8.(5min)
 	    6.1: Maintien de la Sortie en Format Texte (5min)
             7.1: Implémentation de l'argument de ligne de commande.(10min)
             8.1: Vérification du fonctionnement correct du programme (10min)
