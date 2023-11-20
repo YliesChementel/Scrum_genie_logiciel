@@ -1,0 +1,4 @@
+Fichier : mikheev.pdf
+Titre : Periods, Capitalized Words, etc.
+Auteurs : Andrei Mikheev∗
+Résumé : University of Edinburgh  In this article we present an approach for tackling three important aspects of text normalization: sentence boundary disambiguation, disambiguation of capitalized words in positions where capitalization is expected, and identification of abbreviations. As opposed to the two dominant

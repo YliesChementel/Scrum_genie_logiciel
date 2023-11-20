@@ -1,105 +1,87 @@
 import os
 import subprocess
-import argparse
-import xml.etree.ElementTree as ET
 
-# Set up command line argument parsing
-parser = argparse.ArgumentParser(description='PDF to Text/XML Parser')
-group = parser.add_mutually_exclusive_group(required=True)
-group.add_argument('-t', '--text', action='store_true', help='Generate text output')
-group.add_argument('-x', '--xml', action='store_true', help='Generate XML output')
-args = parser.parse_args()
-
-print("Script started")
+print("Démarrage du script")
 
 # Chemin vers le dossier contenant les PDF
 SOURCE_DIR = "."
 DEST_DIR = "Processed"
 
-# Create the destination directory if it doesn't exist
+# Créer le dossier de destination s'il n'existe pas
 if not os.path.exists(DEST_DIR):
-    print(f"Creating {DEST_DIR}")
+    print(f"Création de {DEST_DIR}")
     os.makedirs(DEST_DIR)
 else:
-    print(f"{DEST_DIR} already exists")
+    print(f"Le répertoire {DEST_DIR} existe déjà")
 
 def extract_info_from_text(file_text):
-    # Initialize extracted information
-    title = "Unknown"
-    authors = "Unknown"
-    abstract = "Unknown"
-    references = "Unknown"
+    title = "Inconnu"
+    authors = "Inconnu"
+    abstract = "Inconnu"
 
-    # Attempt to extract information
+    # On tente d'extraire le titre
     lines = file_text.splitlines()
     if lines:
-        title = lines[0]
+        title = lines[0]  # On prend la première ligne comme titre 
 
-    # Similar logic can be used to extract authors, abstract, and references
-    # ... (Implement extraction logic here)
+    # Tentative d'extraction des auteurs (ajuster selon la structure du document)
+    if len(lines) > 1:
+        authors = lines[1]
 
-    return title, authors, abstract, references
+    # Tentative d'extraction de l'abstract
+    try:
+        start_abstract = lines.index("Abstract") + 1
+        end_abstract = None
+        for idx, line in enumerate(lines[start_abstract:], start=start_abstract):
+            if "Introduction" in line or "Keywords" in line:
+                end_abstract = idx
+                break
+        if end_abstract:
+            abstract = " ".join(lines[start_abstract:end_abstract]).replace('\n', ' ').strip()
+    except ValueError:
+        # Si "Abstract" n'est pas trouvé, prendre les lignes après les auteurs
+        abstract = " ".join(lines[2:6]).strip()  # Quatre lignes après les auteurs
 
-def create_xml_output(info, subdir_path, subdir_name):
-    title, authors, abstract, references = info
+    return title, authors, abstract
 
-    # Create XML structure
-    root = ET.Element("article")
-    ET.SubElement(root, "preamble").text = subdir_name
-    ET.SubElement(root, "title").text = title
-    ET.SubElement(root, "author").text = authors
-    ET.SubElement(root, "abstract").text = abstract
-    ET.SubElement(root, "biblio").text = references
-
-    # Write XML to file
-    tree = ET.ElementTree(root)
-    xml_path = os.path.join(subdir_path, f"{subdir_name}.xml")
-    tree.write(xml_path)
-
-# Processing loop
 for filename in os.listdir(SOURCE_DIR):
-    print(f"Checking file: {filename}")
+    print(f"Vérification du fichier : {filename}")
     if filename.endswith(".pdf"):
-        print(f"Processing file: {filename}")
+        print(f"Traitement du fichier : {filename}")
         file_path = os.path.join(SOURCE_DIR, filename)
 
-        # Create a subdirectory for each PDF
+        # Créer un sous-dossier pour chaque PDF
         subdir_name = filename.replace(".pdf", "")
         subdir_path = os.path.join(DEST_DIR, subdir_name)
         if not os.path.exists(subdir_path):
-            print(f"Creating directory: {subdir_path}")
+            print(f"Création du répertoire : {subdir_path}")
             os.makedirs(subdir_path)
         else:
-            print(f"Directory {subdir_path} already exists")
+            print(f"Le répertoire {subdir_path} existe déjà")
 
-        # Copy the PDF to the subdirectory
+        # Copier le PDF vers le sous-dossier
         dest_pdf_path = os.path.join(subdir_path, filename)
         os.system(f"cp '{file_path}' '{dest_pdf_path}'")
 
-        # Convert the PDF to text
-        print(f"Converting PDF: {filename}")
+        # Convertir le PDF en texte
+        print(f"Conversion du PDF : {filename}")
         dest_txt_path = os.path.join(subdir_path, f"{subdir_name}_pdftotext.txt")
         subprocess.run(["pdftotext", file_path, dest_txt_path])
 
-        # Read the content of the text file
+        # Lire le contenu du fichier texte
         with open(dest_txt_path, 'r', encoding='utf-8', errors='ignore') as f:
             content = f.read()
 
-        # Extract necessary information
-        print(f"Extracting info from: {filename}")
-        extracted_info = extract_info_from_text(content)
+        # Extraire les informations nécessaires
+        print(f"Extraction des informations de : {filename}")
+        title, authors, abstract = extract_info_from_text(content)
 
-        # Create output based on selected format
-        if args.xml:
-            create_xml_output(extracted_info, subdir_path, subdir_name)
-        elif args.text:
-            # Create a text file with extracted elements
-            info_path = os.path.join(subdir_path, f"{subdir_name}_info.txt")
-            with open(info_path, 'w') as f:
-                title, authors, abstract, _ = extracted_info
-                f.write(f"File: {filename.replace(' ', '_')}\n")
-                f.write(f"Title: {title}\n")
-                f.write(f"Authors: {authors}\n")
-                f.write(f"Abstract: {abstract}\n")
+        # Créer un fichier avec les éléments extraits
+        info_path = os.path.join(subdir_path, f"{subdir_name}_info.txt")
+        with open(info_path, 'w') as f:
+            f.write(f"Fichier : {filename.replace(' ', '_')}\n")
+            f.write(f"Titre : {title}\n")
+            f.write(f"Auteurs : {authors}\n")
+            f.write(f"Résumé : {abstract}\n")
 
-print("Script finished")
+print("Script terminé")

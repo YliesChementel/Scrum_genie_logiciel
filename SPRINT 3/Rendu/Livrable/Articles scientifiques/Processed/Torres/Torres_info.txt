@@ -1,0 +1,4 @@
+Fichier : Torres.pdf
+Titre : Summary Evaluation
+Auteurs : with and without References
+Résumé : Juan-Manuel Torres-Moreno, Horacio Saggion, Iria da Cunha, Eric SanJuan, and Patricia Velázquez-Morales  automatically generated summary (peer) has to be compared with one or more reference summaries (models). DUC used
