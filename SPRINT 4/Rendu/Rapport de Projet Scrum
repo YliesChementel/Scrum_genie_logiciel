@@ -68,16 +68,22 @@ Définition of Done
 
 Mêlées
 
-    Réunions quotidiennes environ toutes les 20 minutes pour discuter de l'avancement, des blocages et des ajustements nécessaires.
+   
+ Réunions quotidiennes environ toutes les 20 minutes pour discuter de l'avancement, des blocages et des ajustements nécessaires.
 
 	Réunion 1 : Dans cette première réunion, nous en avons déduit que beaucoup ont été faits, mais rien d'encore terminé, chaque tâche prenant du temps, le menu marche, mais rencontre quelques problèmes, l'intégration des nombreuses sections s'est fait sans encombre
 	mais leurs remplissages via les méthodes nouvellement crées, ne sont pas fonctionnel ou optimal pour certaines dût aux différences entre les différents PDF, et le rapport n'a pas beaucoup avancé du au pause prises en conséquence
 	de nombreuses heures de travail enchaîné. Nous avons donc décidé de continuer dans notre lancé et de prendre de plus amples décisions lors de la prochaine mêlée.
 
-	Réunion 2 : Dans cette deuxième réunion, le menu à été fini et les sections Biblio et Discussions ainsi que leurs méthodes de remplissage ont été implémentées, Ouahsouni n'aillant plus rien à faire il s'occupera de faire des tests 
-	et corriger les bugs, les méthodes pour remplir Introduction, Conclusion et Corps posent problème du fait de nombreuses différences entre les .
+	Réunion 2 : Dans cette deuxième réunion, le menu à été fini et les sections Biblio et Discussions ainsi que leurs méthodes de remplissage ont été implémentées, Ouahsouni n'aillant plus rien à faire, il s'occupera de faire des tests.
+	et corriger les bugs, les méthodes pour remplir Introduction, Conclusion et Corps posent problème du fait de nombreuses différences entre les PDF.
 
-	
+	Réunion 3: Dans cette troisième réunion, les méthodes pour remplir Introduction, Conclusion et Corps ont été terminées, mais sont loin d'être optimales et pourraient être largement améliorées, avec le manque de temps nous avons décidé de passer à la
+	suite. La fusion des programmes dans un seul programme aillant était entamée, elle peut maintenant être complète et deux d'entre nous ont commencé la documentation et le README.md.
+
+	Réunion 4: Dans cette dernière réunion, nous avons fini tous les objectifs que nous nous étions posés avec quelques compromis dus au manque de temps et aux conditions de travail actuel ne nous permettant pas d'être optimales et productifs,
+	malgré cela, les tests sont concluants et tout est fonctionnel.
+
 	
 Revue
 	Globalement, tous les objectifs du sprint ont été remplis:
