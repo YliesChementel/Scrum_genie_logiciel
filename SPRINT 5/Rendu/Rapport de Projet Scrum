@@ -1,75 +1,132 @@
 Rapport de Projet Scrum: Parseur d'Articles Scientifiques
 Groupe: Mejai, Ouahsouni, Chementel, Jahid, Boudount
 
-
-
+-----------------------------------------------------------------------------------------------------------------------------
 Product Backlog
 
-    Tâche 1: 
-    Tâche 2: 
-    Tâche 3: 
-    Tâche 4: 
-    Tâche 5: 
-    Tâche 6: 
-    Tâche 7: 
-    Tâche 8: 
-    Tâche 9: 
-    
-    Planification détaillé:
-    	1.1: 
-    	1.2: 
-    	1.3: 
-    	2.1: 
-	2.2: 
-	2.3: 
-	3.1: 
-	3.2: 
-	4.1: 
-	5.1: 
-    	5.2: 
-	6.1: 
-	6.2: 
-	7.1: 
-    	7.2: 
-    	7.3: 
+    Tâche 1: Corpus de réference 
+    Tâche 2: Corpus de test : Test du parseur sur différents fichiers
+    Tâche 3: Comparaison des deux corpus
+    Tâche 4: Rapport : Article scientifique
+    Tâche 5: Documentation et mise à jour du fichier README.md.
+    Tâche 6: Déploiement du système sur GitHub avec gestion des branches.
+	Tache 7: Redaction de l'article scientifique
+-----------------------------------------------------------------------------------------------------------------------------
+Planification détaillé:
+    1.1 : Annotation manuelle des sections dans le corpus de référence.
+    1.2 : Vérification et validation du corpus de référence.
+    2.1 : Exécution du parseur sur le corpus de test.
+    2.2 : Collecte des résultats du parseur.
+    3.1 : Comparaison des résultats du parseur avec le corpus de référence.
+    3.2 : Calcul de la précision du système.
+    3.3 : Calcul du rappel.
+    3.4 ! Mise en commun des resultats
+    4.1 : Rédaction de l'article scientifique en LaTeX.
+    5.1 : Mise à jour du README.md avec les nouvelles informations.
+    5.2 : Vérification et finalisation du README.md.
+    6.1 : Mise en place des branches sur GitHub.
+    6.2 : Dépôt du code final et des rapports sur les branches appropriées.
+	7.1 : Redaction de l'article scientifique
+	7.2 : Mise en page de l'article scientifique
+-----------------------------------------------------------------------------------------------------------------------------
+Sprint Backlog:
 
-Sprint Backlog
-
-    Sprint 4:
-        Tâches sélectionnées : 1, 2, 3, 4, 5, 6, 7, 8, 9.
+    Sprint 5:
+        Tâches sélectionnées : 1, 2, 3, 4, 5, 6
         Sous-tâches :
-		1.1: 
-	    	1.2: 
-	    	1.3: 
-	    	2.1: 
-		2.2: 
-		2.3: 
-		3.1: 
-		3.2: 
-		4.1: 
-		5.1: 
-	    	5.2: 
-		6.1: 
-		6.2: 
-		7.1: 
-	    	7.2: 
-	    	7.3: 
-
-
+			1.1 : Annotation manuelle des sections dans le corpus de référence.(20min) 
+			1.2 : Vérification et validation du corpus de référence. (5min)
+			2.1 : Exécution du parseur sur le corpus de test.(20min) 
+			2.2 : Collecte des résultats du parseur.(5min)
+			3.1 : Comparaison des résultats du parseur avec le corpus de référence.(20min) 
+			3.2 : Calcul de la précision du système. (20min) 
+			3.3 : Calcul du rappel. (5min) 
+			3.4 : Mise en commun des resultats (5min) 
+			4.1 : Rédaction de l'article scientifique en LaTeX. (60min) 
+			5.1 : Mise à jour du README.md avec les nouvelles informations. (20min) 
+			5.2 : Vérification et finalisation du README.md. (5min)
+			6.1 : Mise en place des branches sur GitHub. (5min)
+			6.2 : Dépôt du code final et des rapports sur les branches appropriées. (5min)
+			7.1 : Redaction de l'article scientifique (30min)
+			7.2 : Mise en page de l'article scientifique (5min)
+-----------------------------------------------------------------------------------------------------------------------------
 Répartition des Tâches
+	1.1 : Annotation manuelle des sections dans le corpus de référence.
+		Mejai : 5 premiers documents
+		Jahid : 5 derniers documents	
+	1.2 : Vérification et validation du corpus de référence.
+		Mejai : 5 premiers documents
+		Jahid : 5 derniers documents
+	2.1 : Exécution du parseur sur le corpus de test.
+		Chementel : 5 premiers documents
+		Ouahsouni : 5 derniers documents
+	2.2 : Collecte des résultats du parseur.
+		Chementel : 5 premiers documents
+		Ouahsouni : 5 derniers documents
+	3.1 : Comparaison des résultats du parseur avec le corpus de référence.
+		Mejai : 5 premiers documents
+		Jahid : 5 derniers documents
+	3.2 : Calcul de la précision du système.
+		Mejai : 5 premiers documents
+		Jahid : 5 derniers documents
+	3.3. Calcul du rappel.
+		Mejai 
+		Jahid
+	3.4 : Mise en commun des resultats
+		Mejai 
+		Jahid
+	4.1 : Rédaction de l'article scientifique en LaTeX
+		Boudount
+		Jahid
+		Chementel
+	5.1 : Mise à jour du README.md avec les nouvelles informations.
+		Boudount
+		Mejai
+		Ouahsouni
+	5.2 : Vérification et finalisation du README.md.
+	    Boudount
+	6.1 : Mise en place des branches sur GitHub.
+		Boudount
+	6.2 : Dépôt du code final et des rapports sur les branches appropriées.
+		Boudount
+	7.1 : Redaction de l'article scientifique
+		Boudount
+		Jahid
+		Chementel
+	7.2 : Mise en page de l'article scientifique
+		Boudount
+		Mejai
+		Ouahsouni
+-----------------------------------------------------------------------------------------------------------------------------
+Mêlées :  Réunions quotidiennes environ toutes les 30 minutes pour discuter de l'avancement, des blocages et des ajustements nécessaires.
 
-    	Tâche 1 : 
-    	Tâche 2 : 
-    	Tâche 3 : 
-    	Tâche 4 : 
-    	Tâche 5 :
-    	Tâche 6 : 
-    	Tâche 7 : 
-    	Tâche 8 : 
-    	Tâche 9 : 
-    
+	- Réunion 1 : 
+		-- Discussion : Introduction du sprint, revue des tâches et distribution parmi les membres de l'équipe.
+		-- Résultats : Chaque membre a bien compris ses responsabilités et a commencé à travailler sur les tâches assignées.
 
+	- Réunion 2 : Suivi de l'avancement, identification des obstacles
+		-- Annotation Manuelle (1.1 et 1.2) : Mejai et Jahid ont terminé l'annotation de la moitié de leurs documents respectifs. Aucun problème majeur signalé.
 
+		-- Exécution du Parseur (2.1 et 2.2) : Chementel et Ouahsouni ont rencontré quelques bugs lors de l'exécution du parseur. Après correction, ils ont réussi à tester tous les 10 fichiers en formats TXT et XML.
+
+		-- Problèmes et solutions : Les bugs rencontrés ont été résolus grâce à une collaboration rapide entre Chementel et Ouahsouni. La communication au sein de l'équipe a été efficace pour dépanner rapidement.
+
+	- Réunion 3 : Mise à jour sur les tâches et ajustements nécessaires
+		-- Comparaison et Calcul (3.1, 3.2, 3.3) : Mejai et Jahid ont commencé la comparaison des résultats avec le corpus de référence. Ils sont en bonne voie pour terminer la tâche dans les délais.
+		-- Rédaction de l'Article (7.1) : Boudount, Jahid et Chementel ont fait un brainstorming pour l'outline de l'article scientifique et ont commencé la rédaction.
+	- Réunion 4 : Rendu
+		-- Mise à Jour README.md (5.1 et 5.2) : Boudount, Mejai et Ouahsouni ont entamé les mises à jour du README. Boudount supervisera la finalisation.
+		-- Gestion GitHub (6.1 et 6.2) : Boudount a créé les branches nécessaires sur GitHub et se prépare pour le dépôt final.
+		-- Rédaction de l'Article (7.1 et 7.2) : Boudount, Jahid et Chementel ont continué la rédaction de l'article scientifique.
+
+	- Réunion 5 : Préparation pour la revue de sprint
+    	-- Finalisation des Tâches : Toutes les tâches sont en voie d'achèvement. Les dernières vérifications et ajustements sont en cours.
+    	-- Préparation de la Revue : L'équipe se prépare à présenter le travail accompli durant le sprint, en mettant l'accent sur les résultats obtenus et les défis rencontrés.
+
+	- Réunion 5 : Revue de Sprint et Rétrospective
+		-- Récapitulatif du Sprint : L'équipe présente les résultats du sprint, y compris l'achèvement des tâches, les défis rencontrés et les solutions apportées.
+    	-- Réflexions sur le Sprint : Discussion sur ce qui a bien fonctionné et ce qui pourrait être amélioré. L'équipe identifie des stratégies pour améliorer la collaboration et l'efficacité dans les prochains projets.
+-----------------------------------------------------------------------------------------------------------------------------
 Définition of Done
 
    	Tâche 1 : 
@@ -78,35 +135,25 @@ Définition of Done
 	Tâche 4 : 
 	Tâche 5 : 
 	Tâche 6 : 
-	Tâche 7 : 
-	Tâche 8 : 
-	Tâche 9 : 
-
-Mêlées
-
-   
- Réunions quotidiennes environ toutes les 20 minutes pour discuter de l'avancement, des blocages et des ajustements nécessaires.
-
-	Réunion 1 :
-
-	Réunion 2 :
-	
-	Réunion 3: 
-
-	Réunion 4:
+-----------------------------------------------------------------------------------------------------------------------------
 Revue
 	Globalement, tous les objectifs du sprint ont été remplis:
-		
+
 
 	Problemes :
-
+-----------------------------------------------------------------------------------------------------------------------------
 Rétrospective
 
 	Ce qui a bien fonctionné :
-		
+
 
 	Ce qui a mal fonctionné :
-		
+
 
 	Améliorations :
-	
+-----------------------------------------------------------------------------------------------------------------------------
+
+Mettre dans la peau d'un 
+ opoeau dune equipe de chercheryur qui a un eorblmeatique comment nous avons repondu a la proobleamtiuque et comment on s'evalue quel corpus, quels resutlat et critque des resultat
+faiblaisse manbque efficace
+respective, si on dois le faire quells sont les pistes d'ammeloratioons 
