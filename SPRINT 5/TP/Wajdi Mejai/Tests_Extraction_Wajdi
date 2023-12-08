@@ -1,0 +1,72 @@
+
+Polibits_42_02.pdf:
+
+    Conclusion : Une erreur a été identifiée : 40 lignes manquantes.
+    Score d'extraction : 8/9 (Réussie).
+     
+
+Partitioning_large_signed_two-mode_networks:_Problems_and_prospects.pdf:
+
+    Titre et Auteur : Erreur lors de l'extraction.
+    Erreur : La conclusion et le corps sont extraits ensemble.
+    Score d'extraction : 5/8.
+    une partie manquante(la conclusion)
+
+LDA_resume.pdf:
+
+    Score d'extraction : 9/9 (Réussie).
+
+Exact_Clustering_via_Integer_Programming_and_Maximum_Satisfiability.pdf:
+
+    Introduction : Frontière souple.
+    Conclusion : Frontière souple.
+    Parties extraites : 8/8, dont 2 avec la frontière souple.
+
+Dynamical_Models_Explaining_Social_Balance_and_Evolution_of_Cooperation.pdf:
+
+    Abstract : Erreur.
+    Introduction : Erreur.
+    Corps : Erreur.
+    Titre, Préambule, Conclusion, Auteur, Références.
+    Score d'extraction : 5/8.
+
+    score finale: 35/42 (2 avec frontiere souple)
+       83.3% de precesion 
+
+       fichiers
+
+
+fichier  1: Polibits_42_02.pdf
+    *frontières veritable : 9
+    *frontières trouvées: 9
+    *frontières correctes : 8
+    *frontières incorrectes : 1
+    *frontières non détectées : 0
+
+fichier  2: Partitioning_large_signed_two-mode_networks:_Problems_and_prospects.pdf
+    *frontières veritable : 9
+    *frontières trouvées: 8
+    *frontières correctes : 5
+    *frontières incorrectes : 3
+    *frontières non détectées : 1 
+
+fichier  3: Exact_Clustering_via_Integer_Programming_and_Maximum_Satisfiability.pdf
+    *frontières veritable : 9
+    *frontières trouvées: 9
+    *frontières correctes : 9
+    *frontières incorrectes : 0
+    *frontières non détectées : 0 
+
+fichier  4: Dynamical_Models_Explaining_Social_Balance_and_Evolution_of_Cooperation.pdf
+    *frontières veritable : 8
+    *frontières trouvées: 8
+    *frontières correctes : 8
+    *frontières incorrectes : 0
+    *frontières non détectées : 1
+
+fichier  5: Dynamical_Models_Explaining_Social_Balance_and_Evolution_of_Cooperation.pdf
+    *frontières veritable : 8
+    *frontières trouvées: 8
+    *frontières correctes : 5
+    *frontières incorrectes : 3
+    *frontières non détectées : 1
