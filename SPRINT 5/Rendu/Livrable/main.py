@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 import xml.dom.minidom as md
 
 def find_ext(chemin_dossier, ext):
-    return glob(path.join(chemin_dossier, "*.{}".format(ext)))
+    return glob(os.path.join(chemin_dossier, "*.{}".format(ext)))
 
 def pdf_to_txt(inpute_path) :
     cmd = "./pdfToText.sh "+inpute_path
@@ -265,45 +265,54 @@ def main():
     choix_format = input("Choisissez le format de sortie (-t pour texte, -x pour XML) : ")
     if choix_format not in ["-t", "-x"]:
         print("Format invalide. Veuillez choisir -t ou -x.")
-        return 0
+        return
 
     print("---------------------------------------------------------------------------------")
     print("Liste des répertoires dans le dossier courant :")
     lister_repertoires(".")
-    print("---------------------------------------------------------------------------------")
 
+    print("---------------------------------------------------------------------------------")
     chemin_dossier_PDF = input("Entrez le chemin du dossier contenant les fichiers PDF : ")
+
+    if not os.path.exists(chemin_dossier_PDF):
+        print("Le chemin spécifié n'existe pas. Veuillez vérifier et réessayer.")
+        return
+
+    print("---------------------------------------------------------------------------------")
     print("Liste des répertoires dans le dossier spécifié :")
     lister_repertoires(chemin_dossier_PDF)
     print("---------------------------------------------------------------------------------")
 
     selected_files = select_pdf_files(chemin_dossier_PDF)
 
+    if not selected_files:
+        print("Aucun fichier sélectionné. Fin du programme.")
+        return
+
     nom_dossier_output = "Analyse_txt" if choix_format == "-t" else "Analyse_xml"
     dossier_output = create_directory(nom_dossier_output)
 
+    # Convertir PDF en TXT si nécessaire
+    # Assurez-vous que la fonction pdf_to_txt gère le chemin du dossier correctement
     pdf_to_txt(chemin_dossier_PDF)
 
     print("---------------------------------------------------------------------------------")
     print("Analyse en cours...")
     print("---------------------------------------------------------------------------------")
 
-    # Pour chaque fichier PDF sélectionné, on crée un fichier TXT correspondant
     for file in selected_files:
+        File_txt_path = os.path.join("TEXT", os.path.basename(file).replace(".pdf", ".txt"))
 
-        File_txt_path = "TEXT/" + os.path.basename(file).replace(".pdf", ".txt")
+        print("Création du fichier " + File_txt_path + "...")
+        output_path = os.path.join(dossier_output, os.path.basename(file).replace(".pdf", ".txt" if choix_format == "-t" else ".xml"))
 
-        print ("Création du fichier " + File_txt_path + "...")
-        output_path = dossier_output + "/" + os.path.basename(file).replace(".pdf", ".txt" if choix_format == "-t" else ".xml")
-
-        # On parse le fichier TXT créé
         if choix_format == "-t":
-            parser_file_to_txt(File_txt_path, output_path) # On parse le fichier TXT créé
+            parser_file_to_txt(File_txt_path, output_path)
             print("Persage du fichier " + File_txt_path + " terminé.")
         else:
             parser_file_to_xml(File_txt_path, output_path)
             print("Persage du fichier " + File_txt_path + " terminé.")
-            
+
         print("\n")
 
     print("---------------------------------------------------------------------------------")
