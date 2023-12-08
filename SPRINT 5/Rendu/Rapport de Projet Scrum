@@ -10,7 +10,6 @@ Product Backlog
     Tâche 4: Rapport : Article scientifique
     Tâche 5: Documentation et mise à jour du fichier README.md.
     Tâche 6: Déploiement du système sur GitHub avec gestion des branches.
-	Tache 7: Redaction de l'article scientifique
 -----------------------------------------------------------------------------------------------------------------------------
 Planification détaillé:
     1.1 : Annotation manuelle des sections dans le corpus de référence.
@@ -26,8 +25,6 @@ Planification détaillé:
     5.2 : Vérification et finalisation du README.md.
     6.1 : Mise en place des branches sur GitHub.
     6.2 : Dépôt du code final et des rapports sur les branches appropriées.
-	7.1 : Redaction de l'article scientifique
-	7.2 : Mise en page de l'article scientifique
 -----------------------------------------------------------------------------------------------------------------------------
 Sprint Backlog:
 
@@ -47,8 +44,6 @@ Sprint Backlog:
 			5.2 : Vérification et finalisation du README.md. (5min)
 			6.1 : Mise en place des branches sur GitHub. (5min)
 			6.2 : Dépôt du code final et des rapports sur les branches appropriées. (5min)
-			7.1 : Redaction de l'article scientifique (30min)
-			7.2 : Mise en page de l'article scientifique (5min)
 -----------------------------------------------------------------------------------------------------------------------------
 Répartition des Tâches
 	1.1 : Annotation manuelle des sections dans le corpus de référence.
@@ -89,14 +84,7 @@ Répartition des Tâches
 		Boudount
 	6.2 : Dépôt du code final et des rapports sur les branches appropriées.
 		Boudount
-	7.1 : Redaction de l'article scientifique
-		Boudount
-		Jahid
-		Chementel
-	7.2 : Mise en page de l'article scientifique
-		Boudount
-		Mejai
-		Ouahsouni
+
 -----------------------------------------------------------------------------------------------------------------------------
 Mêlées :  Réunions quotidiennes environ toutes les 30 minutes pour discuter de l'avancement, des blocages et des ajustements nécessaires.
 
@@ -113,11 +101,11 @@ Mêlées :  Réunions quotidiennes environ toutes les 30 minutes pour discuter d
 
 	- Réunion 3 : Mise à jour sur les tâches et ajustements nécessaires
 		-- Comparaison et Calcul (3.1, 3.2, 3.3) : Mejai et Jahid ont commencé la comparaison des résultats avec le corpus de référence. Ils sont en bonne voie pour terminer la tâche dans les délais.
-		-- Rédaction de l'Article (7.1) : Boudount, Jahid et Chementel ont fait un brainstorming pour l'outline de l'article scientifique et ont commencé la rédaction.
+		-- Rédaction de l'Article (4.1) : Boudount, Jahid et Chementel ont fait un brainstorming pour l'outline de l'article scientifique et ont commencé la rédaction.
 	- Réunion 4 : Rendu
 		-- Mise à Jour README.md (5.1 et 5.2) : Boudount, Mejai et Ouahsouni ont entamé les mises à jour du README. Boudount supervisera la finalisation.
 		-- Gestion GitHub (6.1 et 6.2) : Boudount a créé les branches nécessaires sur GitHub et se prépare pour le dépôt final.
-		-- Rédaction de l'Article (7.1 et 7.2) : Boudount, Jahid et Chementel ont continué la rédaction de l'article scientifique.
+		-- Rédaction de l'Article (4.1 et 4.2) : Boudount, Jahid et Chementel ont continué la rédaction de l'article scientifique.
 
 	- Réunion 5 : Préparation pour la revue de sprint
     	-- Finalisation des Tâches : Toutes les tâches sont en voie d'achèvement. Les dernières vérifications et ajustements sont en cours.
@@ -128,32 +116,87 @@ Mêlées :  Réunions quotidiennes environ toutes les 30 minutes pour discuter d
     	-- Réflexions sur le Sprint : Discussion sur ce qui a bien fonctionné et ce qui pourrait être amélioré. L'équipe identifie des stratégies pour améliorer la collaboration et l'efficacité dans les prochains projets.
 -----------------------------------------------------------------------------------------------------------------------------
 Définition of Done
-
-   	Tâche 1 : 
-	Tâche 2 : 
-	Tâche 3 : 
-	Tâche 4 : 
-	Tâche 5 : 
-	Tâche 6 : 
+	Tâche 1 : Corpus de référence annoté manuellement, vérifié et validé.
+    Tâche 2 : Parseur exécuté sur le corpus de test, résultats collectés et documentés.
+    Tâche 3 : Résultats du parseur comparés avec le corpus de référence, précision et rappel calculés.
+    Tâche 4 : Article scientifique rédigé, mis en page et prêt à être soumis.
+    Tâche 5 : README.md mis à jour avec toutes les informations pertinentes et finalisé.
+    Tâche 6 : Système et documents déployés sur GitHub, avec gestion appropriée des branches.
 -----------------------------------------------------------------------------------------------------------------------------
 Revue
-	Globalement, tous les objectifs du sprint ont été remplis:
-
-
-	Problemes :
+	Globalement, tous les objectifs du sprint ont été remplis:  Toutes les tâches du sprint ont été accomplies avec succès. Le parseur a été testé, les résultats ont été comparés et documentés, et un article scientifique a été rédigé.
+	
+	Problemes : Des difficultés initiales avec l'exécution du parseur sur de nouveaux fichiers, mais résolues grâce à une collaboration rapide au sein de l'équipe.
 -----------------------------------------------------------------------------------------------------------------------------
 Rétrospective
 
-	Ce qui a bien fonctionné :
+	Rétrospective
 
+    Ce qui a bien fonctionné :
+        La collaboration et la communication au sein de l'équipe ont été efficaces.
+        La répartition des tâches a permis de travailler de manière structurée et productive.
+        La résolution rapide des bugs a minimisé les retards.
 
-	Ce qui a mal fonctionné :
+    Ce qui a mal fonctionné :
+        Des difficultés initiales avec l'exécution du parseur sur certains fichiers PDF complexes.
+        Des défis dans l'interprétation précise des résultats pour le calcul de la précision et du rappel.
+		Utiilisation du Latex pour la redaction de l'article car c'est pas un outil facile a utiliser et nous avons pas eu le temps de le maitriser
 
-
-	Améliorations :
+    Améliorations :
+        Améliorer les tests et la validation du parseur pour gérer une plus grande variété de formats de fichiers PDF.
+        Implémenter un système d'évaluation automatisé pour des calculs plus rapides et plus précis de la précision et du rappel.
 -----------------------------------------------------------------------------------------------------------------------------
 
-Mettre dans la peau d'un 
- opoeau dune equipe de chercheryur qui a un eorblmeatique comment nous avons repondu a la proobleamtiuque et comment on s'evalue quel corpus, quels resutlat et critque des resultat
-faiblaisse manbque efficace
-respective, si on dois le faire quells sont les pistes d'ammeloratioons 
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+Le développement du parseur d'articles scientifiques a été guidé par une approche méthodique, intégrant Python et des scripts Shell pour traiter efficacement les fichiers PDF. Chaque fonction du programme a été conçue avec une stratégie spécifique pour optimiser l'extraction et la transformation des données.
+
+Stratégies Fonctionnelles
+
+    Fonction find_ext:
+        Objectif: Identifier tous les fichiers PDF dans un dossier donné.
+        Stratégie: Utilisation de glob pour filtrer les fichiers par extension, garantissant que seuls les fichiers PDF sont traités.
+        Impact: Assure une initialisation efficace et ciblée du processus de parsing.
+
+    Fonction pdf_to_txt:
+        Objectif: Convertir les fichiers PDF en texte.
+        Stratégie: Lancement d'un script Shell exécutant pdftotext, permettant de préserver la mise en forme et la structure du contenu.
+        Impact: Préparation des fichiers pour une analyse textuelle approfondie.
+
+    Fonction find_paragraph:
+        Objectif: Extraire des sections spécifiques comme l'Introduction, la Conclusion, et l'Abstract.
+        Stratégie: Recherche de mots-clés et critères d'arrêt pour identifier les limites de chaque section.
+        Impact: Extraction précise des sections clés pour une analyse détaillée.
+
+    Fonctions find_discussion et find_reference:
+        Objectif: Extraire les sections Discussion et Références.
+        Stratégie: Identification de ces sections via des titres spécifiques et utilisation de balises de fin.
+        Impact: Fournit une vue complète et structurée des articles analysés.
+
+    Fonction find_corps:
+        Objectif: Isoler le corps principal de l'article.
+        Stratégie: Début de l'extraction après l'Introduction et terminaison avant la Discussion ou la Conclusion.
+        Impact: Capture intégrale du contenu principal pour une analyse complète.
+
+    Fonctions parser_file_to_txt et parser_file_to_xml:
+        Objectif: Générer des sorties en formats texte et XML.
+        Stratégie: Mise en forme des données extraites selon le format choisi.
+        Impact: Fournit des résultats dans des formats adaptés à diverses applications.
+
+    Fonction main et select_pdf_files:
+        Objectif: Offrir une interface utilisateur pour la sélection des fichiers et du format de sortie.
+        Stratégie: Menu interactif avec des options claires pour une expérience utilisateur optimisée.
+        Impact: Facilite la sélection des fichiers et améliore l'accessibilité du script.
+
+Conclusion
+Le parseur d'articles scientifiques, avec sa structure méthodique et ses stratégies fonctionnelles ciblées, représente une solution complète pour le traitement et l'analyse de documents PDF. Chaque fonction joue un rôle crucial dans la réalisation de l'objectif final : fournir une analyse structurée et détaillée des articles scientifiques. Cette approche méthodique assure une extraction précise des données, une conversion efficace et une présentation adaptée des résultats.
